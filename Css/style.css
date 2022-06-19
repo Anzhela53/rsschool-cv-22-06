@@ -1,1 +1,22 @@
 p { color: rgb(20, 25, 36); }
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    font-size: 14px;
+    color:lightslategrey
+}
+*,
+* :before,
+* :after {
+    box-sizing: border-box;
+  }
+header {
+    border: 1px solid red;
+}
+main {
+    border: 1px solid red;
+}
+footer {
+    border: 1px solid red;
+}
