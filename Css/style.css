@@ -1,10 +1,15 @@
 p { color: rgb(20, 25, 36); }
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0;
     font-family: 'Merriweather', serif;
     line-height: 1.6;
     font-size: 14px;
     color:lightslategrey
+
+
 }
 *,
 * :before,
@@ -20,3 +25,7 @@ main {
 footer {
     border: 1px solid red;
 }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
