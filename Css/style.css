@@ -6,8 +6,14 @@
     font-family: 'Merriweather', serif;
     line-height: 1.6;
     font-size: 14px;
-    color:lightslategrey
+        
 }
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
 
 *,
 * :before,
@@ -21,80 +27,104 @@
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    display: block;
+    position:relative;
 }
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
 .header {
     background-color:#8FD6C8;
+}
+
+.link {
+  text-decoration: none;
+  color: #829985;
+  transition: color 0.5s;
+  }
+  
+.link:hover {
+  color: #5d7260;
 }
 .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color:aquamarine
-}
-
-.nav-list {
     list-style: none;
-  }
+}
 
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
     color: #ffffff;
     font-size: 20px;
-  }
-
-.nav-link {
     transition: .4s;
   }
+
 .section-item a {
     color: #8FD6C8;
     text-decoration: none;  
     transition: color 0.5s;
   }
-.section-item a:hover {
-    color: #F9A7B3;
+
+.photo {
+   display:inline;
+    position:relative;
+    top: 5px;
+    left: 45px;
   }
 
-@media (max-width: 768px) {
-    .section {
-      width: 100%;
-    }
-  }
+.section-title2 {
+  font-weight: 40px;
+  right: 30px;
+  height: 30px;
+  display:inline;
+  position:relative;
+  padding: 0px;
+  left: 350px;
+  color: #000000;
+  font-size: 24px;
+  position: absolute;
+  top: 70px;
+  left: 330px;
+}
 
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
+.section-title3 {
+  font-weight: 40px;
+  right: 30px;
+  height: 30px;
+  display:inline;
+  position:relative;
+  padding: 30px;
+  left: 350px;
+  color: #829985;
+  font-size: 24px;
+  position: absolute;
+  top: 70px;
+  left: 300px;
+}
+
 .section-title {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 1px;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
+    color: #829985;
+}
+
+.section-subtitle {
+    font-size: 18px;
+    font-weight: 1px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
     color: #829985;
   }
 
-.link {
-    text-decoration: none;
-    color: #829985;
-    transition: color 0.5s;
-  }
-  
-.link:hover {
-    color: #5d7260;
-  }
 .section {
-    width: 50%;
+  width: 50%;
+  padding-left: 40px;
   }
 
-.header {
-    border: 1px solid #F9A7B3;
-}
-
-.main {
-    border: 1px solid #F9A7B3;
-}
-
-.footer {
-    border: 1px solid #F9A7B3;
-}
