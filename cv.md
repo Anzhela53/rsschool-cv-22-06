@@ -11,14 +11,20 @@
 
 ---
 #### ___About me___
-1. I study in online school- RSScool. I have no work experience, but I am a fast learner and have a great desire to develop in web development. 
-2. The purpose of my training is a change in lifestyle and a change in activity.
+* I study in online school- RSScool. I have no work experience, but I am a fast learner and have a great desire to develop in web development. 
+* The purpose of my training is a change in lifestyle and a change in activity.
 
 ---
 #### ___Skills___ 
-- Fifma; Tilda; Facebook
-- I am good at basic computer programs. I have a higher humanitarian education, I have experience in advertising
-- I'm just starting to learn the basics so I can't solve displays from Codewars. My first project is CV.
+* Web-development: HTML5, CSS3, JavaScript
+Graphics: Figma
+* I am good at basic computer programs. I have a higher humanitarian education, I have experience in advertising
+* I'm just starting to learn the basics so I can't solve displays from Codewars. My first project is CV.
+
+---
+#### ___Courses___ 
+* Code-basics - Web Development By Doing: HTML / CSS
+* Sololearn - JavaScript
 
 ---
 #### ___Languages___ 
